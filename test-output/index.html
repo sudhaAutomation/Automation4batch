@@ -1,0 +1,804 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />  
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite, 4 failed tests</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-Admin_portal">
+              <span class="suite-name border-failed">Admin portal</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-Admin_portal">
+                    <span>C:\Users\SWHIZZ TECHNOLOGIES\eclipse-workspace1\Selenium_12\src\testNG\NewFile.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-Admin_portal">
+                    <span class="test-stats">2 tests</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-Admin_portal">
+                    <span>2 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-Admin_portal">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-Admin_portal">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-Admin_portal">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-Admin_portal">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">13 methods, 4 failed,  1 skipped,  8 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Admin_portal" class="hide-methods failed suite-Admin_portal"> (hide)</a> <!-- hide-methods failed suite-Admin_portal -->
+                      <a href="#" panel-name="suite-Admin_portal" class="show-methods failed suite-Admin_portal"> (show)</a> <!-- show-methods failed suite-Admin_portal -->
+                    </span>
+                    <div class="method-list-content failed suite-Admin_portal">
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Admin_portal" title="testNG.AddCategory" hash-for-method="addcategory(OnlineTraining, , Zoom Call, , , fail)">addcategory(OnlineTraining, , Zoom Call, , , fail)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Admin_portal" title="testNG.AddCategory" hash-for-method="addcategory(, , , , , fail)">addcategory(, , , , , fail)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Admin_portal" title="testNG.CoursesList" hash-for-method="addcourse">addcourse</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Admin_portal" title="testNG.Admin" hash-for-method="loginTestCase">loginTestCase</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Admin_portal -->
+                  </li>
+                  <li>
+                    <span class="method-list-title skipped">Skipped methods</span>
+                    <span class="show-or-hide-methods skipped">
+                      <a href="#" panel-name="suite-Admin_portal" class="hide-methods skipped suite-Admin_portal"> (hide)</a> <!-- hide-methods skipped suite-Admin_portal -->
+                      <a href="#" panel-name="suite-Admin_portal" class="show-methods skipped suite-Admin_portal"> (show)</a> <!-- show-methods skipped suite-Admin_portal -->
+                    </span>
+                    <div class="method-list-content skipped suite-Admin_portal">
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Admin_portal" title="testNG.CoursesList" hash-for-method="addcoursepage">addcoursepage</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content skipped suite-Admin_portal -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Admin_portal" class="hide-methods passed suite-Admin_portal"> (hide)</a> <!-- hide-methods passed suite-Admin_portal -->
+                      <a href="#" panel-name="suite-Admin_portal" class="show-methods passed suite-Admin_portal"> (show)</a> <!-- show-methods passed suite-Admin_portal -->
+                    </span>
+                    <div class="method-list-content passed suite-Admin_portal">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Admin_portal" title="testNG.MyTest" hash-for-method="abcdtc3">abcdtc3</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Admin_portal" title="testNG.AddCategory" hash-for-method="addcategory(project management, 2, office based, practical work, projects based training, pass)">addcategory(project management, 2, office based, practical work, projects based training, pass)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Admin_portal" title="testNG.AddCategory" hash-for-method="addcategory(OfflineTraining, 2, institute, classroom learning, offline batch, pass)">addcategory(OfflineTraining, 2, institute, classroom learning, offline batch, pass)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Admin_portal" title="testNG.AddCategory" hash-for-method="addcategory(OnlineTraining, 2, Zoom Call, E-Learning, online traing in madhapur,hyderabad,kphb, pass)">addcategory(OnlineTraining, 2, Zoom Call, E-Learning, online traing in madhapur,hyderabad,kphb, pass)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Admin_portal" title="testNG.AddCategory" hash-for-method="addcategory(Internship, 5, office based, practical work, projects based training, pass)">addcategory(Internship, 5, office based, practical work, projects based training, pass)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Admin_portal" title="testNG.CoursesList" hash-for-method="courses">courses</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Admin_portal" title="testNG.MyTest" hash-for-method="mytest1">mytest1</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Admin_portal" title="testNG.MyTest" hash-for-method="secondtc2">secondtc2</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Admin_portal -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Admin_portal" class="panel Admin_portal">
+          <div class="suite-Admin_portal-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">testNG.Admin</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="loginTestCase">
+                  </a> <!-- loginTestCase -->
+                  <span class="method-name">loginTestCase</span>
+                  <div class="stack-trace">java.lang.AssertionError: System logged in to the dashboard page failed expected [true] but found [false]
+	at testNG.Admin.loginTestCase(Admin.java:50)
+... Removed 27 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Admin_portal-class-failed -->
+          <div class="suite-Admin_portal-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">testNG.AddCategory</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="addcategory(OnlineTraining, , Zoom Call, , , fail)">
+                  </a> <!-- addcategory(OnlineTraining, , Zoom Call, , , fail) -->
+                  <span class="method-name">addcategory</span>
+                  <span class="parameters">(OnlineTraining, , Zoom Call, , , fail)</span>
+                  <div class="stack-trace">java.lang.AssertionError: Courses not created expected [true] but found [false]
+	at testNG.AddCategory.addcategory(AddCategory.java:90)
+... Removed 27 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="addcategory(, , , , , fail)">
+                  </a> <!-- addcategory(, , , , , fail) -->
+                  <span class="method-name">addcategory</span>
+                  <span class="parameters">(, , , , , fail)</span>
+                  <div class="stack-trace">java.lang.AssertionError: Courses not created expected [true] but found [false]
+	at testNG.AddCategory.addcategory(AddCategory.java:90)
+... Removed 27 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Admin_portal-class-failed -->
+          <div class="suite-Admin_portal-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">testNG.CoursesList</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="addcourse">
+                  </a> <!-- addcourse -->
+                  <span class="method-name">addcourse</span>
+                  <div class="stack-trace">org.openqa.selenium.InvalidSelectorException: invalid selector: Unable to locate an element with the xpath expression  because of the following error:
+SyntaxError: Failed to execute &apos;evaluate&apos; on &apos;Document&apos;: The string &apos;&apos; is not a valid XPath expression.
+  (Session info: chrome=114.0.5735.199)
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/invalid_selector_exception.html
+Build info: version: &apos;3.14.0&apos;, revision: &apos;aacccce0&apos;, time: &apos;2018-08-02T20:13:22.693Z&apos;
+System info: host: &apos;LAPTOP-18R30RO2&apos;, ip: &apos;192.168.0.102&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_311&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.199, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\Users\SWHIZZ~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:62796}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: acfd4352dcf8bc5ecddd10e3ca2b845e
+*** Element info: {Using=xpath, value=}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:548)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:322)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:424)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:314)
+	at testNG.CoursesList.addcourse(CoursesList.java:55)
+... Removed 28 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Admin_portal-class-failed -->
+          <div class="suite-Admin_portal-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">testNG.CoursesList</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="addcoursepage">
+                  </a> <!-- addcoursepage -->
+                  <span class="method-name">addcoursepage</span>
+                  <div class="stack-trace">java.lang.Throwable: Method CoursesList.addcoursepage()[pri:2, instance:testNG.CoursesList@35851384] depends on not successfully finished methods
+... Removed 17 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Admin_portal-class-skipped -->
+          <div class="suite-Admin_portal-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testNG.AddCategory</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="addcategory(project management, 2, office based, practical work, projects based training, pass)">
+                  </a> <!-- addcategory(project management, 2, office based, practical work, projects based training, pass) -->
+                  <span class="method-name">addcategory</span>
+                  <span class="parameters">(project management, 2, office based, practical work, projects based training, pass)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="addcategory(OfflineTraining, 2, institute, classroom learning, offline batch, pass)">
+                  </a> <!-- addcategory(OfflineTraining, 2, institute, classroom learning, offline batch, pass) -->
+                  <span class="method-name">addcategory</span>
+                  <span class="parameters">(OfflineTraining, 2, institute, classroom learning, offline batch, pass)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="addcategory(OnlineTraining, 2, Zoom Call, E-Learning, online traing in madhapur,hyderabad,kphb, pass)">
+                  </a> <!-- addcategory(OnlineTraining, 2, Zoom Call, E-Learning, online traing in madhapur,hyderabad,kphb, pass) -->
+                  <span class="method-name">addcategory</span>
+                  <span class="parameters">(OnlineTraining, 2, Zoom Call, E-Learning, online traing in madhapur,hyderabad,kphb, pass)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="addcategory(Internship, 5, office based, practical work, projects based training, pass)">
+                  </a> <!-- addcategory(Internship, 5, office based, practical work, projects based training, pass) -->
+                  <span class="method-name">addcategory</span>
+                  <span class="parameters">(Internship, 5, office based, practical work, projects based training, pass)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Admin_portal-class-passed -->
+          <div class="suite-Admin_portal-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testNG.CoursesList</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="courses">
+                  </a> <!-- courses -->
+                  <span class="method-name">courses</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Admin_portal-class-passed -->
+          <div class="suite-Admin_portal-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testNG.MyTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="abcdtc3">
+                  </a> <!-- abcdtc3 -->
+                  <span class="method-name">abcdtc3</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="mytest1">
+                  </a> <!-- mytest1 -->
+                  <span class="method-name">mytest1</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="secondtc2">
+                  </a> <!-- secondtc2 -->
+                  <span class="method-name">secondtc2</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Admin_portal-class-passed -->
+        </div> <!-- panel Admin_portal -->
+        <div panel-name="test-xml-Admin_portal" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\SWHIZZ TECHNOLOGIES\eclipse-workspace1\Selenium_12\src\testNG\NewFile.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite guice-stage=&quot;DEVELOPMENT&quot; name=&quot;Admin portal&quot;&gt;
+  &lt;test name=&quot;Sanity Testing&quot;&gt;
+    &lt;parameter name=&quot;password&quot; value=&quot;123456&quot;/&gt;
+    &lt;parameter name=&quot;browser&quot; value=&quot;chrome&quot;/&gt;
+    &lt;parameter name=&quot;url&quot; value=&quot;http://integratedtoolingsystems.in/1swishzz_staging/admin&quot;/&gt;
+    &lt;parameter name=&quot;username&quot; value=&quot;admin@admin.com&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;testNG.AddCategory&quot;/&gt;
+      &lt;class name=&quot;testNG.CoursesList&quot;/&gt;
+      &lt;class name=&quot;testNG.MyTest&quot;/&gt;
+      &lt;class name=&quot;testNG.Admin&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Sanity Testing --&gt;
+  &lt;test name=&quot;Sanity Testing(failed)&quot;&gt;
+    &lt;parameter name=&quot;password&quot; value=&quot;123456&quot;/&gt;
+    &lt;parameter name=&quot;browser&quot; value=&quot;chrome&quot;/&gt;
+    &lt;parameter name=&quot;url&quot; value=&quot;http://integratedtoolingsystems.in/1swishzz_staging/admin&quot;/&gt;
+    &lt;parameter name=&quot;username&quot; value=&quot;admin@admin.com&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;testNG.Admin&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;tearDown&quot;/&gt;
+          &lt;include name=&quot;beforeTest&quot;/&gt;
+          &lt;include name=&quot;setUp&quot;/&gt;
+          &lt;include name=&quot;loginTestCase&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- testNG.Admin --&gt;
+      &lt;class name=&quot;testNG.AddCategory&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;addcategory&quot; invocation-numbers=&quot;2 4&quot;/&gt;
+          &lt;include name=&quot;setUp&quot;/&gt;
+          &lt;include name=&quot;afterMethod&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- testNG.AddCategory --&gt;
+      &lt;class name=&quot;testNG.CoursesList&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;addcourse&quot;/&gt;
+          &lt;include name=&quot;addcoursepage&quot;/&gt;
+          &lt;include name=&quot;setUp&quot;/&gt;
+          &lt;include name=&quot;afterMethod&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- testNG.CoursesList --&gt;
+      &lt;class name=&quot;testNG.MyTest&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;afterSuite&quot;/&gt;
+          &lt;include name=&quot;beforeTest&quot;/&gt;
+          &lt;include name=&quot;afterMethod&quot;/&gt;
+          &lt;include name=&quot;afterClass&quot;/&gt;
+          &lt;include name=&quot;beforeSuite&quot;/&gt;
+          &lt;include name=&quot;beforeMethod&quot;/&gt;
+          &lt;include name=&quot;afterTest&quot;/&gt;
+          &lt;include name=&quot;beforeClass&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- testNG.MyTest --&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Sanity Testing(failed) --&gt;
+&lt;/suite&gt; &lt;!-- Admin portal --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Admin_portal" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Admin portal</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Sanity Testing (4 classes)</span>
+              </li>
+              <li>
+                <span class="test-name">Sanity Testing(failed) (4 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Admin_portal" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Admin portal</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="test-group">
+              <span class="test-group-name">Add course</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">addcourse</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">addcoursepage</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+            <div class="test-group">
+              <span class="test-group-name">Courses List</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">courses</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Admin_portal" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Admin portal</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Admin_portal');
+function tableData_Admin_portal() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(13);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'addcategory')
+data.setCell(0, 2, 'testNG.AddCategory')
+data.setCell(0, 3, 3056);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'addcategory')
+data.setCell(1, 2, 'testNG.AddCategory')
+data.setCell(1, 3, 1959);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'addcategory')
+data.setCell(2, 2, 'testNG.AddCategory')
+data.setCell(2, 3, 1935);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'addcategory')
+data.setCell(3, 2, 'testNG.AddCategory')
+data.setCell(3, 3, 1899);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'addcategory')
+data.setCell(4, 2, 'testNG.AddCategory')
+data.setCell(4, 3, 1567);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'addcategory')
+data.setCell(5, 2, 'testNG.AddCategory')
+data.setCell(5, 3, 1503);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'loginTestCase')
+data.setCell(6, 2, 'testNG.Admin')
+data.setCell(6, 3, 789);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'addcourse')
+data.setCell(7, 2, 'testNG.CoursesList')
+data.setCell(7, 3, 118);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'courses')
+data.setCell(8, 2, 'testNG.CoursesList')
+data.setCell(8, 3, 30);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'secondtc2')
+data.setCell(9, 2, 'testNG.MyTest')
+data.setCell(9, 3, 1);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'abcdtc3')
+data.setCell(10, 2, 'testNG.MyTest')
+data.setCell(10, 3, 0);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'mytest1')
+data.setCell(11, 2, 'testNG.MyTest')
+data.setCell(11, 3, 0);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'addcoursepage')
+data.setCell(12, 2, 'testNG.CoursesList')
+data.setCell(12, 3, 0);
+window.suiteTableData['Admin_portal']= { tableData: data, tableDiv: 'times-div-Admin_portal'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 12 seconds</span>
+              <div id="times-div-Admin_portal">
+              </div> <!-- times-div-Admin_portal -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Admin_portal" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Admin portal</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Admin_portal" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Admin_portal" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">testNG.MyTest</div> <!-- chronological-class-name -->
+              <div class="configuration-suite before">
+                <span class="method-name">beforeSuite</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-suite before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testNG.Admin</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">beforeTest</span>
+                <span class="method-start">7 ms</span>
+              </div> <!-- configuration-test before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testNG.MyTest</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">beforeTest</span>
+                <span class="method-start">7 ms</span>
+              </div> <!-- configuration-test before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testNG.AddCategory</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(chrome, http://integratedtoolingsystems.in/1swishzz_staging/admin, admin@admin.com, 123456)</span>
+                <span class="method-start">1881 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">addcategory(OnlineTraining, 2, Zoom Call, E-Learning, online traing in madhapur,hyderabad,kphb, pass)</span>
+                <span class="method-start">6562 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod</span>
+                <span class="method-start">9619 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(chrome, http://integratedtoolingsystems.in/1swishzz_staging/admin, admin@admin.com, 123456)</span>
+                <span class="method-start">12318 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">addcategory(OfflineTraining, 2, institute, classroom learning, offline batch, pass)</span>
+                <span class="method-start">15538 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod</span>
+                <span class="method-start">17438 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(chrome, http://integratedtoolingsystems.in/1swishzz_staging/admin, admin@admin.com, 123456)</span>
+                <span class="method-start">19738 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">addcategory(OnlineTraining, , Zoom Call, , , fail)</span>
+                <span class="method-start">23195 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod</span>
+                <span class="method-start">24763 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(chrome, http://integratedtoolingsystems.in/1swishzz_staging/admin, admin@admin.com, 123456)</span>
+                <span class="method-start">27123 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">addcategory(Internship, 5, office based, practical work, projects based training, pass)</span>
+                <span class="method-start">30493 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod</span>
+                <span class="method-start">32452 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(chrome, http://integratedtoolingsystems.in/1swishzz_staging/admin, admin@admin.com, 123456)</span>
+                <span class="method-start">34855 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">addcategory(, , , , , fail)</span>
+                <span class="method-start">38210 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod</span>
+                <span class="method-start">39715 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(chrome, http://integratedtoolingsystems.in/1swishzz_staging/admin, admin@admin.com, 123456)</span>
+                <span class="method-start">42119 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">addcategory(project management, 2, office based, practical work, projects based training, pass)</span>
+                <span class="method-start">45456 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod</span>
+                <span class="method-start">47392 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testNG.CoursesList</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">49805 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">courses</span>
+                <span class="method-start">53182 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod</span>
+                <span class="method-start">53212 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">53530 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">addcourse</span>
+                <span class="method-start">56830 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod</span>
+                <span class="method-start">56949 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testNG.MyTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">beforeClass</span>
+                <span class="method-start">57254 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">abcdtc3</span>
+                <span class="method-start">57255 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod</span>
+                <span class="method-start">57255 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod</span>
+                <span class="method-start">57256 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod</span>
+                <span class="method-start">57256 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod</span>
+                <span class="method-start">57257 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">mytest1</span>
+                <span class="method-start">57257 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod</span>
+                <span class="method-start">57258 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">secondtc2</span>
+                <span class="method-start">57258 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">afterClass</span>
+                <span class="method-start">57260 ms</span>
+              </div> <!-- configuration-class after -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod</span>
+                <span class="method-start">57260 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testNG.Admin</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">57260 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">loginTestCase</span>
+                <span class="method-start">59495 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">60285 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testNG.MyTest</div> <!-- chronological-class-name -->
+              <div class="configuration-test after">
+                <span class="method-name">afterTest</span>
+                <span class="method-start">60660 ms</span>
+              </div> <!-- configuration-test after -->
+              <div class="configuration-suite after">
+                <span class="method-name">afterSuite</span>
+                <span class="method-start">60683 ms</span>
+              </div> <!-- configuration-suite after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>

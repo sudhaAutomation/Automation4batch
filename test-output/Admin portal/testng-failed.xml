@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Admin portal]">
+  <parameter name="password" value="123456"/>
+  <parameter name="browser" value="chrome"/>
+  <parameter name="url" value="http://integratedtoolingsystems.in/1swishzz_staging/admin"/>
+  <parameter name="username" value="admin@admin.com"/>
+  <test name="Sanity Testing">
+    <parameter name="password" value="123456"/>
+    <parameter name="browser" value="chrome"/>
+    <parameter name="url" value="http://integratedtoolingsystems.in/1swishzz_staging/admin"/>
+    <parameter name="username" value="admin@admin.com"/>
+    <classes>
+      <class name="testNG.AddCategory"/>
+      <class name="testNG.CoursesList"/>
+      <class name="testNG.MyTest"/>
+      <class name="testNG.Admin"/>
+    </classes>
+  </test> <!-- Sanity Testing -->
+  <test name="Sanity Testing(failed)">
+    <parameter name="password" value="123456"/>
+    <parameter name="browser" value="chrome"/>
+    <parameter name="url" value="http://integratedtoolingsystems.in/1swishzz_staging/admin"/>
+    <parameter name="username" value="admin@admin.com"/>
+    <classes>
+      <class name="testNG.Admin">
+        <methods>
+          <include name="tearDown"/>
+          <include name="beforeTest"/>
+          <include name="setUp"/>
+          <include name="loginTestCase"/>
+        </methods>
+      </class> <!-- testNG.Admin -->
+      <class name="testNG.AddCategory">
+        <methods>
+          <include name="addcategory" invocation-numbers="2 4"/>
+          <include name="setUp"/>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- testNG.AddCategory -->
+      <class name="testNG.CoursesList">
+        <methods>
+          <include name="addcourse"/>
+          <include name="addcoursepage"/>
+          <include name="setUp"/>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- testNG.CoursesList -->
+      <class name="testNG.MyTest">
+        <methods>
+          <include name="afterSuite"/>
+          <include name="beforeTest"/>
+          <include name="afterMethod"/>
+          <include name="afterClass"/>
+          <include name="beforeSuite"/>
+          <include name="beforeMethod"/>
+          <include name="afterTest"/>
+          <include name="beforeClass"/>
+        </methods>
+      </class> <!-- testNG.MyTest -->
+    </classes>
+  </test> <!-- Sanity Testing(failed) -->
+</suite> <!-- Failed suite [Admin portal] -->
